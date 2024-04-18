@@ -1,26 +1,4 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![MIT License][license-shield]][license-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -46,30 +24,18 @@
 
 
 <!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
+## Table of Contents
+
+- [Table of Contents](#table-of-contents)
+- [About The Project](#about-the-project)
+  - [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Changelog](#changelog)
+- [Usage](#usage)
+- [Roadmap](#roadmap)
+- [Acknowledgements](#acknowledgements)
 
 
 
@@ -77,17 +43,12 @@
 ## About The Project
 In our organisation we have a lot of web applications. Migrating to eKlient and starting to utilize the powerful WrapperKing to package applications we found that it took a lot of time and with multiple persons handling the application packaging, there where sometimes disparities in how they performed - Hence, this application!
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
-* [eKlient's WrapperKing][https://www.inera.se/tjanster/alla-tjanster-a-o/e-klient]
-* [![JQuery][JQuery.com]][JQuery-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+* [Powershell](https://docs.microsoft.com/en-us/powershell/)
+* [VSCode](https://code.visualstudio.com/)
+* [WrapperKing](https://www.inera.se/tjanster/alla-tjanster-a-o/e-klient)
 
 
 <!-- GETTING STARTED -->
@@ -108,57 +69,23 @@ This is an example of how to list things you need to use the software and how to
    Clone this repo and run New-WKShortcut.ps1
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Changelog
 
-
-
+`New-WKShortcut` is currently only maintained by one person. New features might take a while.
+- Version 1.0 - 2024-04-18
+  - [x] Repository made public
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+Get-Help `Function-Name` -Full
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/Varnamo-kommun/New-WKShortcut/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+ - [ ] Adding compability for cli based package generation (bulk)
 
 
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.md` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Project Link: [https://github.com/Varnamo-kommun/New-WKShortcut](https://github.com/Varnamo-kommun/New-WKShortcut)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+eKlient team for the powerful WrapperKing application packager [eKlient](https://www.inera.se/tjanster/alla-tjanster-a-o/e-klient)
