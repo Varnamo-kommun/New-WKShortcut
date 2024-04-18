@@ -33,7 +33,6 @@
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Changelog](#changelog)
-- [Usage](#usage)
 - [Roadmap](#roadmap)
 - [Acknowledgements](#acknowledgements)
 
@@ -75,10 +74,6 @@ This is an example of how to list things you need to use the software and how to
 - Version 1.0 - 2024-04-18
   - [x] Repository made public
 <!-- USAGE EXAMPLES -->
-## Usage
-
-Get-Help `Function-Name` -Full
-
 
 <!-- ROADMAP -->
 ## Roadmap
