@@ -40,13 +40,13 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-In our organisation we have a lot of web applications. Migrating to eKlient and starting to utilize the powerful WrapperKing to package applications we found that it took a lot of time and with multiple persons handling the application packaging, there where sometimes disparities in how they performed - Hence, this application!
+In our organisation we have a lot of web applications. Migrating to eKlient and starting to utilize the powerful WrapperKing to package applications we found that it took a lot of time and with multiple persons handling the application packaging, there where sometimes disparities in how they performed - Hence, this little helper application.
 
 
 ### Built With
 
 * [Powershell](https://docs.microsoft.com/en-us/powershell/)
-* [VSCode](https://code.visualstudio.com/)
+* [Visual Studio](https://visualstudio.microsoft.com/)
 * [WrapperKing](https://www.inera.se/tjanster/alla-tjanster-a-o/e-klient)
 
 
@@ -55,7 +55,6 @@ In our organisation we have a lot of web applications. Migrating to eKlient and 
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * WrapperKing
   ```sh
   Download and install WrapperKing from DownloadManager
@@ -63,7 +62,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Clone the repo
+* Clone the repo
    ```sh
    Clone this repo and run New-WKShortcut.ps1
    ```
